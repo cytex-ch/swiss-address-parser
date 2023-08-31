@@ -1,7 +1,7 @@
 {
   "name": "swiss-address-parser",
   "displayName": "@cytex/swiss-address-parser",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "parses 🇨🇭 address strings into structured data",
   "keywords": [
     "swiss-address-parser",

@@ -12,7 +12,7 @@ parses 🇨🇭 address strings into structured data
 [![GitHub issues](https://img.shields.io/github/issues/cytex-ch/swiss-address-parser)]()
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/cytex-ch/swiss-address-parser)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-[![codecov](https://codecov.io/gh/cytex-ch/swiss-address-parser/graph/badge.svg?token=P7TXWCFFB5)](https://codecov.io/gh/cytex-media-solutions/swiss-address-parser)
+[![codecov](https://codecov.io/gh/cytex-ch/swiss-address-parser/graph/badge.svg?token=P7TXWCFFB5)](https://codecov.io/gh/cytex-ch/swiss-address-parser)
 
 </div>
 
