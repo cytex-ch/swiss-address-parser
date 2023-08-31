@@ -38,7 +38,8 @@
     "prepare": "npm run compile",
     "pretest": "npm run compile",
     "test": "jest --testPathIgnorePatterns \"build/\" --runInBand --verbose",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "publish": "npm version patch --force && npm publish"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.18.6",
