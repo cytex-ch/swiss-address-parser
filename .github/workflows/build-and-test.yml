@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      SWISSPOST_CLIENT_ID: ${{ secrets.SWISSPOST_CLIENT_ID }}
-      SWISSPOST_CLIENT_SECRET: ${{ secrets.SWISSPOST_CLIENT_SECRET }}
 
     strategy:
       matrix:
