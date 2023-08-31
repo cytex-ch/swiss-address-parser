@@ -9,8 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    env:
-
     strategy:
       matrix:
         node-version: ["16.x"]
