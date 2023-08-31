@@ -7,12 +7,12 @@ parses 🇨🇭 address strings into structured data
 
 <div align="center">
 
-[![Build, Lint and Test](https://github.com/cytex-media-solutions/swiss-address-parser/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/cytex-media-solutions/swiss-address-parser/actions/workflows/build-and-test.yml)
+[![Build, Lint and Test](https://github.com/cytex-ch/swiss-address-parser/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/cytex-ch/swiss-address-parser/actions/workflows/build-and-test.yml)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub issues](https://img.shields.io/github/issues/cytex-media-solutions/swiss-address-parser)]()
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/cytex-media-solutions/swiss-address-parser)]()
+[![GitHub issues](https://img.shields.io/github/issues/cytex-ch/swiss-address-parser)]()
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/cytex-ch/swiss-address-parser)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-[![codecov](https://codecov.io/gh/cytex-media-solutions/swiss-address-parser/graph/badge.svg?token=P7TXWCFFB5)](https://codecov.io/gh/cytex-media-solutions/swiss-address-parser)
+[![codecov](https://codecov.io/gh/cytex-ch/swiss-address-parser/graph/badge.svg?token=P7TXWCFFB5)](https://codecov.io/gh/cytex-media-solutions/swiss-address-parser)
 
 </div>
 
@@ -111,5 +111,5 @@ npm run test
 
 <a name="authors"></a>
 
-- [@cytex-media-solutions](https://github.com/cytex-media-solutions) - Project author
+- [@cytex-ch](https://github.com/cytex-ch) - Project author
 - [@sjutz](https://github.com/sjutz) - Project maintainer <simon.jutz@cytex.ch>
