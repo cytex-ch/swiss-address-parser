@@ -27,6 +27,8 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+      - run: git config --global user.email "simon.jutz@cytex.ch"
+      - run: git config --global user.name "Simon Jutz"
       - run: npm i
       - run: npm run compile
       - run: npm run publish
