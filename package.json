@@ -4,11 +4,11 @@
   "version": "0.1.0",
   "description": "parses 🇨🇭 address strings into structured data",
   "keywords": [
-    "swiss-address-parser",
-    "epost.ch",
-    "epost",
-    "swiss-post",
-    "api",
+    "switzerland",
+    "address parser",
+    "geocoding",
+    "geocoder",
+    "swiss address",
     "typescript",
     "javascript",
     "nodejs"
