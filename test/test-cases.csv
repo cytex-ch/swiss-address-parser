@@ -1,0 +1,21 @@
+input,street,streetNumber,postalCode,city,canton
+"Via da la Staziun 496, 7550 Scuol",Via da la Staziun,496,7550,Scuol,
+"Via da la Staziun 496, 7550 Scuol (GR)",Via da la Staziun,496,7550,Scuol,GR
+"Sonnenbergstrasse 1, 1946 Bourg-st. Pierre",Sonnenbergstrasse,1,1946,Bourg-st. Pierre,
+"Sonnenbergstrasse 1, 1946 Bourg-st. Pierre (VS)",Sonnenbergstrasse,1,1946,Bourg-st. Pierre,VS
+"6430 Schwyz, 's Gassli 1",'s Gassli,1,6430,Schwyz,
+"6430 Schwyz, 's Gassli 1 (SZ)",'s Gassli,1,6430,Schwyz,SZ
+"Gassli 1, 6430 Schwyz",Gassli,1,6430,Schwyz,
+7500,,,7500,,
+3000 Bern (BE),,,3000,Bern,BE
+"Helvetiaplatz, 3005 Bern (BE)",Helvetiaplatz,,3005,Bern,BE
+3005,,,3005,,
+Rössliplatz,Rössliplatz,,,,
+Bahnhofstrasse 1,Bahnhofstrasse,1,,,
+"Bahnhofstrasse 1, 8001 Zürich",Bahnhofstrasse,1,8001,Zürich,
+"Bahnhofstrasse 1, 8001 Zürich (ZH)",Bahnhofstrasse,1,8001,Zürich,ZH
+"Bahnhofstrasse 1, 8001 Zürich (ZH)",Bahnhofstrasse,1,8001,Zürich,ZH
+Kapfstrasse 8,Kapfstrasse,8,,,
+"Kapfstrasse 8, 8001 Zürich",Kapfstrasse,8,8001,Zürich,
+"Kapfstrasse 8, 8001 Zürich (ZH)",Kapfstrasse,8,8001,Zürich,ZH
+Universitätstrasse,Universitätstrasse,,,,

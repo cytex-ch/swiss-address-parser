@@ -1,0 +1,40 @@
+name: Build, Lint and Test
+
+on:
+  push: 
+    branches: 
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      SWISSPOST_CLIENT_ID: ${{ secrets.SWISSPOST_CLIENT_ID }}
+      SWISSPOST_CLIENT_SECRET: ${{ secrets.SWISSPOST_CLIENT_SECRET }}
+
+    strategy:
+      matrix:
+        node-version: ["16.x"]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - uses: actions/cache@v3
+        id: npm-cache # use this to check for `cache-hit` ==> if: steps.npm-cache.outputs.cache-hit != 'true'
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - run: npm i
+      - run: npm run coverage         
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
