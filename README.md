@@ -21,7 +21,7 @@ parses 🇨🇭 address strings into structured data
 <div align="center" style="margin-bottom: 20px; background-color: #FFF; border-radius: 5px; padding: 20px; color: #000;">
         ⚠️ This project is still in development and not ready for production use. ⚠️<br/>
         Can't wait to use it? Feel free to
-        <a href="#authors">contribute</a>.
+        <a href="./CONTRIBUTE.md">contribute</a>.
 </div>
 
 <br/>
@@ -31,8 +31,9 @@ parses 🇨🇭 address strings into structured data
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Installing](#installing)
-- [Tests](#tests)
 - [Usage](#usage)
+- [License](#license)
+- [Tests](#tests)
 - [Built Using](#built_using)
 - [Authors](#authors)
 
@@ -87,6 +88,13 @@ console.log(address);
 //   country: 'CH'
 // }
 ```
+## 📜 License
+
+<a name="license"></a>
+
+In the vast realm of code, where ideas intertwine and innovation knows no bounds, I find myself continually amazed by the unwavering spirit of collaboration that defines the open source community. It's a world where developers, like you and me, share their creations, their insights, and their expertise with an unparalleled generosity. Countless times, whether through serendipitous discovery or through meticulous research, I've stumbled upon remarkable projects that have enriched my own journey as a developer.
+
+Recognizing the profound impact that the open source community has had on my own growth, I've made a personal commitment to give back to this tapestry of ingenuity. The code is licensed under the <strong>Apache license</strong>, which means that you're free to use, remix, and build upon it. It's my way of extending the thread of collaboration that binds us as developers.
 
 ## 🔧 Running the tests
 
