@@ -27,4 +27,4 @@ jobs:
             ${{ runner.os }}-node-
       - run: npm i
       - run: npm run compile
-      - run: npm run publish
+      - run: npm publish
