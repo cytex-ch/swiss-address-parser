@@ -1,7 +1,7 @@
 import {readFileSync} from 'fs';
 import parseSwissAddress from '../src';
 import {Address} from '../src';
-import path = require('path');
+import path from 'path';
 
 interface Example {
   input: string;

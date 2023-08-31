@@ -1,7 +1,7 @@
 {
   "name": "swiss-address-parser",
   "displayName": "@cytex/swiss-address-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parses Swiss addresses",
   "keywords": [
     "swiss-address-parser",
@@ -22,8 +22,11 @@
       "url": "https://github.com/sjutz"
     }
   ],
-  "main": "build/src/index.js",
-  "types": "./build/src/index.d.ts",
+  "main": "build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "build": "tsc",
     "clean": "gts clean",
@@ -33,7 +36,6 @@
     "fix": "gts fix",
     "lint": "gts lint",
     "prepare": "npm run compile",
-    "start": "node dist/index.js",
     "pretest": "npm run compile",
     "test": "jest --testPathIgnorePatterns \"build/\" --runInBand --verbose",
     "posttest": "npm run lint"

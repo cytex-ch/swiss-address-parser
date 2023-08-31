@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'elastictype',
+  displayName: 'swiss-address-parser',
   testEnvironment: 'node',
   moduleFileExtensions: ['ts', 'js', 'html'],
   coverageDirectory: 'coverage',

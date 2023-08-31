@@ -1,6 +1,6 @@
 <h2 align="center">swiss-address-parser</h3>
 <p align="center">
-    Retrieve and manage your ePost/swiss-address-parser snail mail with ease.
+parses 🇨🇭 address strings into structured data
 </p>
 
 <br/>
@@ -30,8 +30,6 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
 - [Installing](#installing)
 - [Tests](#tests)
 - [Usage](#usage)
@@ -42,41 +40,14 @@
 
 <a name="about"></a>
 
-<strong>swiss-address-parser</strong> allows you to easily fetch physical snail mail from your ePost/Swiss-address-parser account. Additionally, you can also manage your snail mail by creating, updating and deleting it.
+<strong>swiss-address-parser</strong> is a library that parses 🇨🇭 address strings into structured data. It acknowledges the fact that user input varies and tries to parse as much as possible.
 
-### ⚠️ Disclaimer
-
-This project is not affiliated with Swiss Post or Swiss-address-parser in any way. It is an unofficial API wrapper for the Swiss-address-parser API. Use at your own risk. We are not responsible for any damage caused by the use of this library.
-
-## 🏁 Features
-
-<a name="features"></a>
-
-- Search
-- Fetch
-- Download
-- Create
 
 ## 🏁 Getting Started
 
 <a name="getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-<a name="prerequisites"></a>
-
-Please make sure you have installed the following tools:
-
-- [Node.js](https://nodejs.org/en/) - JavaScript runtime environment
-- [TypeScript](https://www.typescriptlang.org/) - Typescript compiler
-- A [epost.ch](https://www.epost.ch) account whose address is verified and has enabled Scanning Services.
-
-And a package manager of your choice:
-
-- [npm](https://www.npmjs.com/) - Node.js package manager
-- [yarn](https://yarnpkg.com/) - Node.js package manager
 
 ### Installing
 
@@ -101,30 +72,20 @@ yarn add swiss-address-parser
 ### Basic usage
 
 ```typescript
-import Swiss-address-parser from 'swiss-address-parser';
+import parse from 'swiss-address-parser';
 
-// Create a new instance
-const swiss-address-parser = new Swiss-address-parser('username', 'password');
+const address = parse('Musterstrasse 1, 8000 Zürich');
 
-// Fetch tenants (optional, defaults to first tenant)
-const tenants = await swiss-address-parser.user.tenants();
-swiss-address-parser.use(tenants[0]);
+console.log(address);
 
-// Login
-await swiss-address-parser.login();
-
-// Fetch all letters
-await swiss-address-parser.letterbox.find();
-
-// Fetch a specific letter
-await swiss-address-parser.letterbox.findOne("letter-id");
-
-// Remove a letter
-await swiss-address-parser.letterbox.delete("letter-id");
-
-// Download a letter
-await swiss-address-parser.letterbox.download("letter-id", "./letter.pdf");
-
+// {
+//   street: 'Musterstrasse',
+//   streetNumber: '1',
+//   zipCode: '8000',
+//   city: 'Zürich',
+//   canton: 'ZH',
+//   country: 'CH'
+// }
 ```
 
 ## 🔧 Running the tests
